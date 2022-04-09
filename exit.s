@@ -22,7 +22,7 @@ _start:
 	movl $1, %eax		# This is the Linux kernel command number (system call)
 									# for exiting a program
 	
-	movl $0, %ebx		# This is the status number we will return to the 
+	movl $1, %ebx		# This is the status number we will return to the 
 									#	operating system
 									# Change this around and it will return different
 									#	things with echo $?
