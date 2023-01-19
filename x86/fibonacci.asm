@@ -1,11 +1,8 @@
 global _start
 
 section .data
-	space db 32
 	newline db 10
 section .bss
-	i resb 2
-	j resb 2
 	digit resb 2
 section .text
 _start:
